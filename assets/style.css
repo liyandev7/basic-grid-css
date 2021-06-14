@@ -1,0 +1,95 @@
+@import "responsive.css";
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Shabnam Light";
+  direction: rtl;
+  text-align: right;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #222;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.img-responsive {
+  min-width: 100%;
+  display: inline-block;
+}
+.clear-fix {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container-fuild {
+  min-width: 100%;
+}
+
+.container {
+  min-width: 1200px;
+  margin: 0 auto;
+  clear: both;
+}
+.bg-navy-blue {
+  background-color: #000c66 !important;
+}
+.bg-dark-blue {
+  background-color: #050a30 !important;
+}
+.bg-gold {
+  background-color: #f8d210 !important;
+}
+.bg-pink {
+  background-color: #fa26a0 !important;
+}
+.bg-red {
+  background-color: #f51720 !important;
+}
+.h-0 {
+  height: 0px;
+}
+.h-25 {
+  min-height: 25%;
+}
+.h-50 {
+  min-height: 50%;
+}
+.h-75 {
+  min-height: 75%;
+}
+.h-100 {
+  min-height: 100%;
+}
+.w-0 {
+  width: 0%;
+}
+.w-25 {
+  min-width: 25%;
+}
+.w-50 {
+  min-width: 50%;
+}
+.w-75 {
+  min-width: 75%;
+}
+.w-100 {
+  min-width: 100%;
+}
+.row::after{
+  content: '';
+  clear: both;
+  display: table;
+}
+[class ^="col-"]{
+  float: right;
+}
